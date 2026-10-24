@@ -2,7 +2,7 @@
 
 *Heaven's light is Our Guide*
 
-<img src="367573531-18531be8-2a84-4bea-9027-5f1c40549dfa.png" width="160" alt="RUET Logo">
+<img src="https://github.com/rahul53pro/ECE-1204_2510053/blob/main/367573531-18531be8-2a84-4bea-9027-5f1c40549dfa%20(1).png" width="160" alt="RUET Logo">
 
 # Rajshahi University of Engineering & Technology
 
