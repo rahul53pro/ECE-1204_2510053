@@ -2,7 +2,7 @@
 
 *Heaven's light is Our Guide*
 
-<img src="https://github.com/rahul53pro/ECE-1204_2510053/blob/main/367573531-18531be8-2a84-4bea-9027-5f1c40549dfa%20(1).png" width="160" alt="RUET Logo">
+<img src="367573531-18531be8-2a84-4bea-9027-5f1c40549dfa%20(1).png" width="160" alt="RUET Logo">
 
 # Rajshahi University of Engineering & Technology
 
@@ -36,7 +36,7 @@ This repository contains my lab work for **ECE 1204 – Object Oriented Programm
 <td width="50%" valign="top">
 
 ### 📤 Submitted To
-**Hafsa Binte Kibriya**
+**Hafsa Binte Kibria**
 Assistant Professor
 Department of Electrical & Computer Engineering
 Rajshahi University of Engineering & Technology
@@ -59,7 +59,7 @@ Rajshahi – 6204
 
 | | |
 |---|---|
-| **Course Title** | Object Oriented Programming Sessional|
+| **Course Title** | Object Oriented Programming Sessional |
 | **Course Code** | ECE 1204 |
 | **Language Used** | C++ |
 | **Online Judge** | [Codeforces — Rahul_Sarker](https://codeforces.com/profile/Rahul_Sarker) |
@@ -80,7 +80,7 @@ Rajshahi – 6204
 ## 📑 Lab Report Index
 
 <!--
-  ✏️ EDIT 3 (adding a report) — this is the main place you will edit.
+  ✏️ EDIT 1 (adding a report) — this is the main place you will edit.
   When you finish a lab, update its row in 3 steps:
     1. Replace "To be updated" with the lab topic.
     2. Replace the "—" in the Report column with:
@@ -104,7 +104,7 @@ Rajshahi – 6204
 | **10** | To be updated | — | 🕒 Upcoming |
 
 <!--
-  ✏️ EDIT 4 (course project): If your course has a project, remove the opening comment marker
+  ✏️ EDIT 2 (course project): If your course has a project, remove the opening comment marker
   above this block and the closing one after it, so the section appears. Then fill in your links.
 
 ## 🚀 Course Project
@@ -148,7 +148,6 @@ Each `Lab-XX.md` file contains the problem statements, C++ source code and outpu
 
 ## ⚙️ How to Compile and Run
 
-<!-- ✏️ EDIT 1 (continued): Update these commands if the language is not C++. -->
 All programs are written in C++ and can be compiled with G++:
 
 ```bash
@@ -177,8 +176,7 @@ Alongside the lab work, I practise problem solving on Codeforces to strengthen m
 
 ### 🙏 Acknowledgement
 
-<!-- ✏️ EDIT 2 (continued): Put your teacher's name here too. -->
-I am grateful to **[Teacher Name]** for the guidance and feedback throughout this course.
+I am grateful to **Hafsa Binte Kibria** for the guidance and feedback throughout this course.
 
 <br>
 
