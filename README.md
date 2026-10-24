@@ -90,7 +90,7 @@ Rajshahi – 6204
 
 | Lab | Topic | Report | Status |
 | :---: | :--- | :---: | :---: |
-| **01** | To be updated | — | 🕒 Upcoming |
+| **01** | To be updated | — | 📄 View |
 | **02** | To be updated | — | 🕒 Upcoming |
 | **03** | To be updated | — | 🕒 Upcoming |
 | **04** | To be updated | — | 🕒 Upcoming |
