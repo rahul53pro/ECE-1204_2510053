@@ -10,7 +10,7 @@
 
 <br>
 
-# 📗 ECE 1204 — Object Oriented Programming
+# 📗 ECE 1204 — Object Oriented Programming Sessional
 ### Lab Report Portfolio
 
 <br>
