@@ -70,8 +70,6 @@ Rajshahi – 6204
 
 - [📑 Lab Report Index](#-lab-report-index)
 - [🧠 Core OOP Concepts](#-core-oop-concepts)
-- [📂 Repository Structure](#-repository-structure)
-- [⚙️ How to Compile and Run](#️-how-to-compile-and-run)
 - [🏆 Codeforces](#-codeforces)
 - [📚 Previous Course](#-previous-course)
 
