@@ -10,16 +10,16 @@
 
 <br>
 
-# 📘 ECE 1104 — Computer Programming Sessional
+# 📗 ECE 1204 — Object Oriented Programming
 ### Lab Report Portfolio
 
 <br>
 
-![Language](https://img.shields.io/badge/Language-C-00599C?style=for-the-badge&logo=c&logoColor=white)
-![Labs](https://img.shields.io/badge/Lab%20Reports-11-2ea44f?style=for-the-badge)
-![Project](https://img.shields.io/badge/Group%20Project-Group%2020-orange?style=for-the-badge)
+<!-- ✏️ EDIT 1 (language): If your course uses Java instead of C++, change "C++" in the badge below, and update the compile section near the bottom. -->
+![Language](https://img.shields.io/badge/Language-C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![Status](https://img.shields.io/badge/Status-In%20Progress-f1c40f?style=for-the-badge)
 [![Codeforces](https://img.shields.io/badge/Codeforces-Rahul__Sarker-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white)](https://codeforces.com/profile/Rahul_Sarker)
-![Last Commit](https://img.shields.io/github/last-commit/rahul53pro/ECE-1104_2510053?style=for-the-badge)
+![Last Commit](https://img.shields.io/github/last-commit/rahul53pro/ECE-1204_2510053?style=for-the-badge)
 
 </div>
 
@@ -27,7 +27,7 @@
 
 ## 📌 About This Repository
 
-This repository contains my complete lab work for **ECE 1104 – Computer Programming Sessional**. Each report documents the problems solved in that session, the C source code, sample input/output, and a short discussion. The labs progress step by step from basic C programs to **arrays, functions, pointers, strings and structures**, and finish with a **group project**.
+This repository contains my lab work for **ECE 1204 – Object Oriented Programming**. Each lab report documents the problems solved in that session: the problem statement, the source code, sample input/output and a short discussion. Reports are added here as the course progresses, so the index below always shows the current status.
 
 ---
 
@@ -38,8 +38,9 @@ This repository contains my complete lab work for **ECE 1104 – Computer Progra
 <td width="50%" valign="top">
 
 ### 📤 Submitted To
-**Hafsa Binte Kibria**
-Assistant Professor
+<!-- ✏️ EDIT 2 (teacher): Replace the two placeholder lines below with your OOP lab teacher's name and designation. -->
+**[Teacher Name]**
+[Designation]
 Department of Electrical & Computer Engineering
 Rajshahi University of Engineering & Technology
 Rajshahi – 6204
@@ -61,9 +62,9 @@ Rajshahi – 6204
 
 | | |
 |---|---|
-| **Course Title** | Computer Programming Sessional |
-| **Course Code** | ECE 1104 |
-| **Language Used** | C |
+| **Course Title** | Object Oriented Programming |
+| **Course Code** | ECE 1204 |
+| **Language Used** | C++ |
 | **Online Judge** | [Codeforces — Rahul_Sarker](https://codeforces.com/profile/Rahul_Sarker) |
 
 ---
@@ -71,78 +72,90 @@ Rajshahi – 6204
 ## 🧭 Quick Navigation
 
 - [📑 Lab Report Index](#-lab-report-index)
-- [🧠 Topics Covered](#-topics-covered)
-- [🚀 Group Project](#-group-project)
+- [🧠 Core OOP Concepts](#-core-oop-concepts)
 - [📂 Repository Structure](#-repository-structure)
 - [⚙️ How to Compile and Run](#️-how-to-compile-and-run)
 - [🏆 Codeforces](#-codeforces)
+- [📚 Previous Course](#-previous-course)
 
 ---
 
 ## 📑 Lab Report Index
 
-| Lab | Topic | Report |
-| :---: | :--- | :---: |
-| **01** | Lab Report 01 | [📄 View](https://github.com/rahul53pro/ECE-1104_2510053/blob/main/Lab%20reports/Lab-01.md) |
-| **02** | Lab Report 02 | [📄 View](https://github.com/rahul53pro/ECE-1104_2510053/blob/main/Lab%20reports/Lab-02.md) |
-| **03** | Lab Report 03 | [📄 View](https://github.com/rahul53pro/ECE-1104_2510053/blob/main/Lab%20reports/Lab-03.md) |
-| **04** | Lab Report 04 | [📄 View](https://github.com/rahul53pro/ECE-1104_2510053/blob/main/Lab%20reports/Lab-04.md) |
-| **05** | Basic C problems related to **arrays** | [📄 View](https://github.com/rahul53pro/ECE-1104_2510053/blob/main/Lab%20reports/Lab-05.md) |
-| **06** | C problems related to **arrays** | [📄 View](https://github.com/rahul53pro/ECE-1104_2510053/blob/main/Lab%20reports/Lab-06.md) |
-| **07** | C problems related to **functions** | [📄 View](https://github.com/rahul53pro/ECE-1104_2510053/blob/main/Lab%20reports/Lab-07.md) |
-| **08** | C problems related to **functions** | [📄 View](https://github.com/rahul53pro/ECE-1104_2510053/blob/main/Lab%20reports/Lab-08.md) |
-| **09** | C problems related to **pointers** | [📄 View](https://github.com/rahul53pro/ECE-1104_2510053/blob/main/Lab%20reports/Lab-09.md) |
-| **10** | C problems related to **pointers, strings and arrays** | [📄 View](https://github.com/rahul53pro/ECE-1104_2510053/blob/main/Lab%20reports/Lab-10.md) |
-| **11** | C problems related to **pointers and structures** | [📄 View](https://github.com/rahul53pro/ECE-1104_2510053/blob/main/Lab%20reports/Lab-11.md) |
+<!--
+  ✏️ EDIT 3 (adding a report) — this is the main place you will edit.
+  When you finish a lab, update its row in 3 steps:
+    1. Replace "To be updated" with the lab topic.
+    2. Replace the "—" in the Report column with:
+       [📄 View](https://github.com/rahul53pro/ECE-1204_2510053/blob/main/Lab%20reports/Lab-01.md)
+       (change Lab-01 to match the lab number; %20 stands for the space in "Lab reports")
+    3. Replace "🕒 Upcoming" with "✅ Submitted".
+  Need more rows? Copy any row and change the number. Fewer labs? Delete the extra rows.
+-->
 
----
+| Lab | Topic | Report | Status |
+| :---: | :--- | :---: | :---: |
+| **01** | To be updated | — | 🕒 Upcoming |
+| **02** | To be updated | — | 🕒 Upcoming |
+| **03** | To be updated | — | 🕒 Upcoming |
+| **04** | To be updated | — | 🕒 Upcoming |
+| **05** | To be updated | — | 🕒 Upcoming |
+| **06** | To be updated | — | 🕒 Upcoming |
+| **07** | To be updated | — | 🕒 Upcoming |
+| **08** | To be updated | — | 🕒 Upcoming |
+| **09** | To be updated | — | 🕒 Upcoming |
+| **10** | To be updated | — | 🕒 Upcoming |
 
-## 🧠 Topics Covered
+<!--
+  ✏️ EDIT 4 (course project): If your course has a project, remove the opening comment marker
+  above this block and the closing one after it, so the section appears. Then fill in your links.
 
-| Labs | Concept | What it builds |
-| :---: | :--- | :--- |
-| 05 – 06 | **Arrays** | Storing, traversing and processing collections of data |
-| 07 – 08 | **Functions** | Modular code, parameters, return values, reusability |
-| 09 | **Pointers** | Memory addresses, indirection, pointer arithmetic |
-| 10 | **Pointers + Strings + Arrays** | How the three concepts connect in C |
-| 11 | **Pointers + Structures** | Grouping related data and accessing it through pointers |
-
----
-
-## 🚀 Group Project
-
-The semester ends with a team project that applies everything learned across the labs.
+## 🚀 Course Project
 
 | | |
 | :--- | :--- |
-| **Project** | ECE 1104 Lab Project — **Group 20** |
-| **Source Code** | [💻 GitHub Repository](https://github.com/rahul53pro/ECE_Lab_Project_GROUP20) |
-| **Demo Video** | [🎥 Watch on Google Drive](https://drive.google.com/file/d/1R5VXmzFGclYQ51IKA2OSr-5reKpupLZ_/view) |
+| **Project** | ECE 1204 Lab Project — Group XX |
+| **Source Code** | [💻 GitHub Repository](PASTE_REPO_LINK_HERE) |
+| **Demo Video** | [🎥 Watch Demo](PASTE_VIDEO_LINK_HERE) |
+-->
+
+---
+
+## 🧠 Core OOP Concepts
+
+This course is built around the four pillars of object oriented programming, which the lab problems apply step by step:
+
+| Concept | Idea |
+| :--- | :--- |
+| **Encapsulation** | Bundling data and the functions that work on it inside a class, and controlling access to it |
+| **Abstraction** | Exposing what an object does while hiding how it does it |
+| **Inheritance** | Building new classes from existing ones to reuse and extend behaviour |
+| **Polymorphism** | Letting one interface behave differently depending on the object using it |
 
 ---
 
 ## 📂 Repository Structure
 
 ```text
-ECE-1104_2510053/
+ECE-1204_2510053/
 ├── README.md
 └── Lab reports/
     ├── Lab-01.md
     ├── Lab-02.md
-    ├── ...
-    └── Lab-11.md
+    └── ...
 ```
 
-Each `Lab-XX.md` file contains the problem statements, C source code and outputs for that session.
+Each `Lab-XX.md` file contains the problem statements, C++ source code and outputs for that session.
 
 ---
 
 ## ⚙️ How to Compile and Run
 
-All programs are written in standard C and can be compiled with GCC:
+<!-- ✏️ EDIT 1 (continued): Update these commands if the language is not C++. -->
+All programs are written in C++ and can be compiled with G++:
 
 ```bash
-gcc program.c -o program
+g++ -std=c++17 program.cpp -o program
 ./program          # Linux / macOS
 program.exe        # Windows
 ```
@@ -151,9 +164,15 @@ program.exe        # Windows
 
 ## 🏆 Codeforces
 
-Alongside the lab work, I practise problem solving on Codeforces to strengthen my C programming and logic.
+Alongside the lab work, I practise problem solving on Codeforces to strengthen my programming and logic.
 
 [![Codeforces Profile](https://img.shields.io/badge/View%20My%20Profile-Rahul__Sarker-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white)](https://codeforces.com/profile/Rahul_Sarker)
+
+---
+
+## 📚 Previous Course
+
+📘 **ECE 1104 – Computer Programming Sessional** (C programming): [View repository](https://github.com/rahul53pro/ECE-1104_2510053)
 
 ---
 
@@ -161,7 +180,8 @@ Alongside the lab work, I practise problem solving on Codeforces to strengthen m
 
 ### 🙏 Acknowledgement
 
-I am grateful to **Hafsa Binte Kibria**, Assistant Professor, for her guidance and feedback throughout this course.
+<!-- ✏️ EDIT 2 (continued): Put your teacher's name here too. -->
+I am grateful to **[Teacher Name]** for the guidance and feedback throughout this course.
 
 <br>
 
