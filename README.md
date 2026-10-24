@@ -131,33 +131,6 @@ This course is built around the four pillars of object oriented programming, whi
 
 ---
 
-## 📂 Repository Structure
-
-```text
-ECE-1204_2510053/
-├── README.md
-└── Lab reports/
-    ├── Lab-01.md
-    ├── Lab-02.md
-    └── ...
-```
-
-Each `Lab-XX.md` file contains the problem statements, C++ source code and outputs for that session.
-
----
-
-## ⚙️ How to Compile and Run
-
-All programs are written in C++ and can be compiled with G++:
-
-```bash
-g++ -std=c++17 program.cpp -o program
-./program          # Linux / macOS
-program.exe        # Windows
-```
-
----
-
 ## 🏆 Codeforces
 
 Alongside the lab work, I practise problem solving on Codeforces to strengthen my programming and logic.
