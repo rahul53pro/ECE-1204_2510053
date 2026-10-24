@@ -15,9 +15,7 @@
 
 <br>
 
-<!-- ✏️ EDIT 1 (language): If your course uses Java instead of C++, change "C++" in the badge below, and update the compile section near the bottom. -->
 ![Language](https://img.shields.io/badge/Language-C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![Status](https://img.shields.io/badge/Status-In%20Progress-f1c40f?style=for-the-badge)
 [![Codeforces](https://img.shields.io/badge/Codeforces-Rahul__Sarker-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white)](https://codeforces.com/profile/Rahul_Sarker)
 ![Last Commit](https://img.shields.io/github/last-commit/rahul53pro/ECE-1204_2510053?style=for-the-badge)
 
