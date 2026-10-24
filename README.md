@@ -25,7 +25,7 @@
 
 ## 📌 About This Repository
 
-This repository contains my lab work for **ECE 1204 – Object Oriented Programming**. Each lab report documents the problems solved in that session: the problem statement, the source code, sample input/output and a short discussion. Reports are added here as the course progresses, so the index below always shows the current status.
+This repository contains my lab work for **ECE 1204 – Object Oriented Programming Sessional**. Each lab report documents the problems solved in that session: the problem statement, the source code, sample input/output and a short discussion. Reports are added here as the course progresses.
 
 ---
 
@@ -37,7 +37,7 @@ This repository contains my lab work for **ECE 1204 – Object Oriented Programm
 
 ### 📤 Submitted To
 <!-- ✏️ EDIT 2 (teacher): Replace the two placeholder lines below with your OOP lab teacher's name and designation. -->
-**[Teacher Name]**
+**[Hafsa Binte Kibriya]**
 [Designation]
 Department of Electrical & Computer Engineering
 Rajshahi University of Engineering & Technology
