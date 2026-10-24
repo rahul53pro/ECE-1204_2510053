@@ -36,9 +36,8 @@ This repository contains my lab work for **ECE 1204 – Object Oriented Programm
 <td width="50%" valign="top">
 
 ### 📤 Submitted To
-<!-- ✏️ EDIT 2 (teacher): Replace the two placeholder lines below with your OOP lab teacher's name and designation. -->
-**[Hafsa Binte Kibriya]**
-[Designation]
+**Hafsa Binte Kibriya**
+Assistant Professor
 Department of Electrical & Computer Engineering
 Rajshahi University of Engineering & Technology
 Rajshahi – 6204
@@ -60,7 +59,7 @@ Rajshahi – 6204
 
 | | |
 |---|---|
-| **Course Title** | Object Oriented Programming |
+| **Course Title** | Object Oriented Programming Sessional|
 | **Course Code** | ECE 1204 |
 | **Language Used** | C++ |
 | **Online Judge** | [Codeforces — Rahul_Sarker](https://codeforces.com/profile/Rahul_Sarker) |
