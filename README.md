@@ -36,21 +36,21 @@ This repository contains my lab work for **ECE 1204 – Object Oriented Programm
 <td width="50%" valign="top">
 
 ### 📤 Submitted To
-**Hafsa Binte Kibria**
-Assistant Professor
-Department of Electrical & Computer Engineering
-Rajshahi University of Engineering & Technology
+**Hafsa Binte Kibria**\
+Assistant Professor\
+Department of Electrical & Computer Engineering\
+Rajshahi University of Engineering & Technology\
 Rajshahi – 6204
 
 </td>
 <td width="50%" valign="top">
 
 ### 📥 Submitted By
-**Rahul Sarker**
-Roll No: **2510053**
-Registration No: **1104**
-Department of Electrical & Computer Engineering
-Rajshahi University of Engineering & Technology
+**Rahul Sarker**\
+Roll No: **2510053**\
+Registration No: **1104**\
+Department of Electrical & Computer Engineering\
+Rajshahi University of Engineering & Technology\
 Rajshahi – 6204
 
 </td>
