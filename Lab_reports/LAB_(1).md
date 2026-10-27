@@ -57,7 +57,7 @@ int main()
 ```
 
 ### Output
-<img src="Outputs/LAB-1/Screenshot 2026-10-28 035123.png" alt="image-1">
+<img src="Screenshot 2026-10-28 035123.png" alt="image-1">
 
 ### Discussion
 
