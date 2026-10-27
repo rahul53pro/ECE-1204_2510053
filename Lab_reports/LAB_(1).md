@@ -4,7 +4,6 @@
 | :--- | :--- |
 | **Course** | ECE 1204 – Object Oriented Programming Sessional |
 | **Lab Workout** | Defining a class with private data members and member functions |
-| **Submitted By** | Rahul Sarker · Roll No: 2510053 |
 | **Submission Date** | 28 Oct 2026 |
 
 ---
