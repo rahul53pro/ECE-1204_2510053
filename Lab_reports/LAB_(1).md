@@ -1,4 +1,4 @@
-# Lab Title: OOP Classes and Objects
+# Lab 01: OOP Classes and Objects
 
 | | |
 | :--- | :--- |
