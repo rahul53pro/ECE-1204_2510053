@@ -25,43 +25,34 @@
 ### Code
 ```cpp
 #include <iostream>
+
 using namespace std;
 
 class Rectangle {
 private:
-    double length;
-    double width;
+    float length;
+    float width;
 
 public:
-    // Constructor to initialise the private data members
-    Rectangle(double l, double w) {
+    Rectangle(float l, float w) {
         length = l;
         width = w;
     }
 
-    // Returns the area of the rectangle
-    double area() const {
+    float area() {
         return length * width;
     }
 
-    // Returns the perimeter of the rectangle
-    double perimeter() const {
+    float perimeter() {
         return 2 * (length + width);
     }
 };
 
 int main() {
-    double l, w;
+    Rectangle rect(5, 3);
 
-    cout << "Enter length: ";
-    cin >> l;
-    cout << "Enter width: ";
-    cin >> w;
-
-    Rectangle rect(l, w);
-
-    cout << "Area = " << rect.area() << endl;
-    cout << "Perimeter = " << rect.perimeter() << endl;
+    cout << "Area: " << rect.area() << endl;
+    cout << "Perimeter: " << rect.perimeter() << endl;
 
     return 0;
 }
