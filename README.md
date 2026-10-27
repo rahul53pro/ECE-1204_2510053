@@ -101,32 +101,6 @@ Rajshahi – 6204
 | **09** | To be updated | — | 🕒 Upcoming |
 | **10** | To be updated | — | 🕒 Upcoming |
 
-<!--
-  ✏️ EDIT 2 (course project): If your course has a project, remove the opening comment marker
-  above this block and the closing one after it, so the section appears. Then fill in your links.
-
-## 🚀 Course Project
-
-| | |
-| :--- | :--- |
-| **Project** | ECE 1204 Lab Project — Group XX |
-| **Source Code** | [💻 GitHub Repository](PASTE_REPO_LINK_HERE) |
-| **Demo Video** | [🎥 Watch Demo](PASTE_VIDEO_LINK_HERE) |
--->
-
----
-
-## 🧠 Core OOP Concepts
-
-This course is built around the four pillars of object oriented programming, which the lab problems apply step by step:
-
-| Concept | Idea |
-| :--- | :--- |
-| **Encapsulation** | Bundling data and the functions that work on it inside a class, and controlling access to it |
-| **Abstraction** | Exposing what an object does while hiding how it does it |
-| **Inheritance** | Building new classes from existing ones to reuse and extend behaviour |
-| **Polymorphism** | Letting one interface behave differently depending on the object using it |
-
 ---
 
 ## 🏆 Codeforces
