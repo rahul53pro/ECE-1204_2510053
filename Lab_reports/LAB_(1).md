@@ -57,7 +57,7 @@ int main()
 ```
 
 ### Output
-
+<img src="" alt="image-1">
 
 ### Discussion
 
