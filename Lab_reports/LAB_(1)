@@ -1,1 +1,29 @@
+# Lab Title: OOP classes and Objects.
+**Lab Workout:**  
+**Submission Date:** 28 Oct 2026
 
+---
+
+## Table of Contents / Task List
+1. [Problem-01: [Write a C++ program to create a class called Rectangle that has
+private member variables for length and width. Implement member
+functions to calculate the rectangle's area and perimeter.]](#problem-01)
+2. [Problem-02: [Task Name]](#problem-02)
+3. [Problem-03: [Task Name]](#problem-03)
+
+---
+
+## Problem-01
+**Name:** [Task Name / Description]  
+**Status:** Done  
+
+### Code
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+    // Write your C++ code here
+    
+    return 0;
+}
