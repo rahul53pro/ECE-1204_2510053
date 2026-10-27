@@ -24,50 +24,42 @@
 
 ### Code
 ```cpp
-#include <iostream>
-
+#include<iostream>
 using namespace std;
-
-class Rectangle {
+class rectangle
+{
 private:
-    float length;
-    float width;
-
+    int length;
+    int width;
 public:
-    Rectangle(float l, float w) {
+    rectangle(int l, int w)
+    {
         length = l;
         width = w;
     }
-
-    float area() {
-        return length * width;
+    float area()
+    {
+        return length*width;
     }
-
-    float perimeter() {
-        return 2 * (length + width);
+    float perimeter()
+    {
+        return 2*(length + width);
     }
 };
 
-int main() {
-    Rectangle rect(5, 3);
-
-    cout << "Area: " << rect.area() << endl;
-    cout << "Perimeter: " << rect.perimeter() << endl;
-
-    return 0;
+int main()
+{
+    rectangle a(2,3);
+    cout << "Area : " << a.area() << endl;
+    cout << "Perimeter : " << a.perimeter() << endl;
 }
+
 ```
 
-### Sample Output
-```text
-Enter length: 5
-Enter width: 3
-Area = 15
-Perimeter = 16
-```
+### Output
+
 
 ### Discussion
-The `length` and `width` variables are declared `private`, so they cannot be accessed directly from `main()`. They are set through the constructor, and the public member functions `area()` and `perimeter()` use them to return the results. This is **encapsulation**: the data is protected inside the class and used only through its own functions. Both functions are marked `const` because they only read the data and do not change the object.
 
 ---
 
