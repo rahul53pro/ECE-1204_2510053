@@ -65,7 +65,7 @@ int main()
 
 ## Problem-02
 
-**Problem Statement:** _Write the problem statement here._
+Define a class named “student”. Declare one variable and function for private, public and protected. Define the functions outside of the class. Now try to access the variable and functions from main function and see what happens.
 
 **Status:** Pending
 
