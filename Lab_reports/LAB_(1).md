@@ -8,7 +8,7 @@
 
 ---
 
-## Table of Contents / Task List
+## Table of Contents
 1. [Problem-01: Rectangle class (area and perimeter)](#problem-01)
 2. [Problem-02: Task Name](#problem-02)
 3. [Problem-03: Task Name](#problem-03)
