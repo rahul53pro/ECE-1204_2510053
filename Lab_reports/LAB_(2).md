@@ -130,7 +130,7 @@ int main ()
 
 ### Output
 
-<img src="" alt="image-2">
+<img src="https://github.com/rahul53pro/ECE-1204_2510053/blob/main/Outputs/LAB-2/Screenshot%202026-11-04%20041609.png" alt="image-2">
 
 ### Discussion
 
@@ -138,7 +138,19 @@ int main ()
 
 ## Problem-03
 
-**Problem Statement:** 
+**Problem Statement:** Design a system for a company that has two types of employees: PermanentEmployee and ContractEmployee. The company also has a HRDepartment that needs access to private data of all employees to calculate bonuses.
+Implement the following:
+1. A base class Employee that stores basic information: name, employeeID, and baseSalary.
+         o Use a constructor to initialize these values.
+2. Create two derived classes:
+         o PermanentEmployee: Has yearsOfService.
+         o ContractEmployee: Has contractDuration.
+3. Create a friend class HRDepartment that:
+         o Has access to the private data of all employees.
+         o Can calculate and display the bonus:
+                 $ PermanentEmployee: 10% of base salary + 1000 for each year of service.
+                 $ ContractEmployee: 5% of base salary.
+Use proper inheritance, constructor chaining, and the friend class concept.
 
 **Status:** Done
 
