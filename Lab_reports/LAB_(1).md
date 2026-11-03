@@ -296,7 +296,7 @@ int main()
 
 ### Output
 
-<img src="https://github.com/rahul53pro/ECE-1204_2510053/blob/main/Outputs/LAB-1/Screenshot%202026-10-28%20035123.png" alt="image-1">
+<img src="https://github.com/rahul53pro/ECE-1204_2510053/blob/main/Outputs/LAB-1/Screenshot%202026-11-04%20033825.png" alt="image-1">
 
 ### Discussion
 
