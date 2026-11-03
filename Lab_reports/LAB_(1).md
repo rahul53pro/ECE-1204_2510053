@@ -135,10 +135,7 @@ _Write a short explanation of your approach and what you learned._
 
 ## Problem-03
 
-**Problem Statement:** Write a C++ program to create a class called Car that has private
-member variables for company, model, and year. Implement
-member functions to get and set these variables. Also show the
-output. (With and without using constructor).
+**Problem Statement:** Write a C++ program to create a class called Car that has private member variables for company, model, and year. Implement member functions to get and set these variables. Also show the output. (With and without using constructor).
 
 **Status:** Done
 
@@ -243,3 +240,51 @@ int main()
 
 ### Discussion
 _Write a short explanation of your approach and what you learned._
+
+## Problem-04
+
+**Problem Statement:** Write a C++ program to implement a class called Employee that has private member variables for name, employee ID, and salary. Find the highest salary and print the employer’s name.
+
+**Status:** Done
+
+### Code
+```cpp
+#include<iostream>
+using namespace std;
+class rectangle
+{
+private:
+    int length;
+    int width;
+public:
+    rectangle(int l, int w)
+    {
+        length = l;
+        width = w;
+    }
+    float area()
+    {
+        return length*width;
+    }
+    float perimeter()
+    {
+        return 2*(length + width);
+    }
+};
+
+int main()
+{
+    rectangle a(2,3);
+    cout << "Area : " << a.area() << endl;
+    cout << "Perimeter : " << a.perimeter() << endl;
+}
+
+```
+
+### Output
+
+<img src="https://github.com/rahul53pro/ECE-1204_2510053/blob/main/Outputs/LAB-1/Screenshot%202026-10-28%20035123.png" alt="image-1">
+
+### Discussion
+
+---
