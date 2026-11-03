@@ -135,7 +135,10 @@ _Write a short explanation of your approach and what you learned._
 
 ## Problem-03
 
-**Problem Statement:** _Write the problem statement here._
+**Problem Statement:** Write a C++ program to create a class called Car that has private
+member variables for company, model, and year. Implement
+member functions to get and set these variables. Also show the
+output. (With and without using constructor).
 
 **Status:** Done
 
@@ -236,7 +239,7 @@ int main()
 ```
 ### Output
 
-<img src="" alt="image-4">
+<img src="https://github.com/rahul53pro/ECE-1204_2510053/blob/main/Outputs/LAB-1/Screenshot%202026-11-04%20025457.png" alt="image-4">
 
 ### Discussion
 _Write a short explanation of your approach and what you learned._
