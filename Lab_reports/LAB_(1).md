@@ -189,7 +189,7 @@ int main()
 ```
 ### Output
 ```text
-Paste the program output here
+<img src="Screenshot 2026-10-28 035123.png" alt="image-1">
 ```
 ### Code 2 :
 ```cpp
