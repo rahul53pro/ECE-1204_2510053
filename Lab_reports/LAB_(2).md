@@ -18,7 +18,7 @@
 ---
 
 ## Problem-01
-
+Define a class named “student”. Declare one variable and function for private, public and protected. Define the functions outside of the class. Now try to access the variable and functions from main function and see what happens.
 **Problem Statement:** 
 
 **Status:** Done
