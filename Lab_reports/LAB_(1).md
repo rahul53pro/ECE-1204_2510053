@@ -123,7 +123,7 @@ int main()
 
 ```
 
-### Sample Output
+### Output
 
 
 ### Discussion
@@ -137,7 +137,7 @@ _Write a short explanation of your approach and what you learned._
 
 **Status:** Pending
 
-### Code
+### Code 1 :
 ```cpp
 // Without using constructor
 #include<iostream>
@@ -187,8 +187,52 @@ int main()
     cout<< "Price : " << C1.getPrice() << endl;
 }
 ```
+### Output
+```text
+Paste the program output here
+```
+### Code 2 :
+```cpp
+// With using constructor
+#include<iostream>
+using namespace std;
+class Car
+{
+private:
+    string name;
+    string brand;
+    int price;
+public:
+    Car(string n, string b, int p)
+    {
+        name = n;
+        brand = b;
+        price = p;
+    }
+    string getName()
+    {
+        return name;
+    }
+    string getBrand()
+    {
+        return brand;
+    }
+    int getPrice()
+    {
+        return price;
+    }
+};
+int main()
+{
+    Car C1("Devid Putra", "Suzuki", 999990);
 
-### Sample Output
+    cout<< "Details about the Car :" << endl;
+    cout<< "Name : " << C1.getName() << endl;
+    cout<< "Brand : " << C1.getBrand() << endl;
+    cout<< "Price : " << C1.getPrice() << endl;
+}
+```
+### Output
 ```text
 Paste the program output here
 ```
