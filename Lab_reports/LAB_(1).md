@@ -57,7 +57,8 @@ int main()
 ```
 
 ### Output
-<img src="Screenshot 2026-10-28 035123.png" alt="image-1">
+
+<img src="" alt="image-1">
 
 ### Discussion
 
@@ -125,6 +126,7 @@ int main()
 
 ### Output
 
+<img src="" alt="image-1">
 
 ### Discussion
 _Write a short explanation of your approach and what you learned._
@@ -189,7 +191,7 @@ int main()
 ```
 ### Output
 
-<img src="https://github.com/rahul53pro/ECE-1204_2510053/blob/main/Outputs/LAB-1/Screenshot%202026-11-04%20025159.png" alt="image-1">
+<img src="https://github.com/rahul53pro/ECE-1204_2510053/blob/main/Outputs/LAB-1/Screenshot%202026-11-04%20025159.png" alt="image-3">
 
 ### Code 2 :
 ```cpp
@@ -233,9 +235,8 @@ int main()
 }
 ```
 ### Output
-```text
-Paste the program output here
-```
+
+<img src="" alt="image-1">
 
 ### Discussion
 _Write a short explanation of your approach and what you learned._
