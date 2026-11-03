@@ -68,7 +68,7 @@ int main()
 
 Define a class named “student”. Declare one variable and function for private, public and protected. Define the functions outside of the class. Now try to access the variable and functions from main function and see what happens.
 
-**Status:** Pending
+**Status:** Done
 
 ### Code
 ```cpp
@@ -126,7 +126,7 @@ int main()
 
 ### Output
 
-<img src="" alt="image-1">
+<img src="https://github.com/rahul53pro/ECE-1204_2510053/blob/main/Outputs/LAB-1/Screenshot%202026-10-28%20035819.png" alt="image-1">
 
 ### Discussion
 _Write a short explanation of your approach and what you learned._
@@ -137,7 +137,7 @@ _Write a short explanation of your approach and what you learned._
 
 **Problem Statement:** _Write the problem statement here._
 
-**Status:** Pending
+**Status:** Done
 
 ### Code 1 :
 ```cpp
