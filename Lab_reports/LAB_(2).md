@@ -25,7 +25,55 @@
 
 ### Code
 ```cpp
+#include <iostream>
+#include <string>
 
+using namespace std;
+
+class Student
+{
+private:
+    string name;
+    void Name();
+
+protected:
+    int roll;
+    void Roll();
+
+public:
+    string department;
+    void Department();
+};
+
+void Student::Name()
+{
+    cout << "NAME: " << name << endl;
+}
+
+void Student::Roll()
+{
+    cout << "ROLL: " << roll << endl;
+}
+
+void Student::Department()
+{
+    cout << "DEPARTMENT: " << department << endl;
+}
+
+int main()
+{
+    Student S;
+
+    // S.name = "Cobra";
+    // S.roll = 2510053;
+    S.department = "ECE";
+
+    // S.Name();
+    // S.Roll();
+    S.Department();
+
+    return 0;
+}
 ```
 
 ### Output
