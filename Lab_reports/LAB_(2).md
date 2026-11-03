@@ -202,7 +202,7 @@ int main()
 
 ### Output
 
-<img src="" alt="image-4">
+<img src="https://github.com/rahul53pro/ECE-1204_2510053/blob/main/Outputs/LAB-2/Screenshot%202026-11-04%20044318.png" alt="image-4">
 
 ### Discussion
 
