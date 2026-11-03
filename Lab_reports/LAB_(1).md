@@ -129,7 +129,6 @@ int main()
 <img src="https://github.com/rahul53pro/ECE-1204_2510053/blob/main/Outputs/LAB-1/Screenshot%202026-10-28%20035819.png" alt="image-2">
 
 ### Discussion
-_Write a short explanation of your approach and what you learned._
 
 ---
 
@@ -239,7 +238,7 @@ int main()
 <img src="https://github.com/rahul53pro/ECE-1204_2510053/blob/main/Outputs/LAB-1/Screenshot%202026-11-04%20025457.png" alt="image-4">
 
 ### Discussion
-_Write a short explanation of your approach and what you learned._
+
 
 ## Problem-04
 
