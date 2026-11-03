@@ -139,13 +139,52 @@ _Write a short explanation of your approach and what you learned._
 
 ### Code
 ```cpp
-#include <iostream>
+// Without using constructor
+#include<iostream>
 using namespace std;
+class Car
+{
+private:
+    string name;
+    string brand;
+    int price;
+public:
+    void setName(string n)
+    {
+        name = n;
+    }
+    void setBrand(string b)
+    {
+        brand = b;
+    }
+    void setPrice(int p)
+    {
+        price = p;
+    }
+    string getName()
+    {
+        return name;
+    }
+    string getBrand()
+    {
+        return brand;
+    }
+    int getPrice()
+    {
+        return price;
+    }
+};
+int main()
+{
+    Car C1;
+    C1.setName("Devid Putra");
+    C1.setBrand("Suzuki");
+    C1.setPrice(599000);
 
-int main() {
-    // Write your C++ code here
-
-    return 0;
+    cout<< "Details about the Car :" << endl;
+    cout<< "Name : " << C1.getName() << endl;
+    cout<< "Brand : " << C1.getBrand() << endl;
+    cout<< "Price : " << C1.getPrice() << endl;
 }
 ```
 
