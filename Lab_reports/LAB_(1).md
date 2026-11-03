@@ -249,36 +249,49 @@ _Write a short explanation of your approach and what you learned._
 
 ### Code
 ```cpp
+// Without using constructor
 #include<iostream>
 using namespace std;
-class rectangle
+class Employee
 {
 private:
-    int length;
-    int width;
+    string name;
+    int id;
+    int salary;
 public:
-    rectangle(int l, int w)
+    Employee(string n, int i, int s)
     {
-        length = l;
-        width = w;
+        name = n;
+        id = i;
+        salary = s;
     }
-    float area()
+    string getName()
     {
-        return length*width;
+        return name;
     }
-    float perimeter()
+    int getSalary()
     {
-        return 2*(length + width);
+        return salary;
     }
 };
 
 int main()
 {
-    rectangle a(2,3);
-    cout << "Area : " << a.area() << endl;
-    cout << "Perimeter : " << a.perimeter() << endl;
-}
+    Employee E1("Rahul", 2510053, 10000);
+    Employee E2("Shourov", 2510053, 15000);
 
+    if(E1.getSalary() > E2.getSalary())
+    {
+        cout<< "Highest Salary : " << E1.getSalary() << endl;
+        cout<< "Name : " << E1.getName() << endl;
+    }
+    else
+    {
+        cout<< "Highest Salary : " << E2.getSalary() << endl;
+        cout<< "Name : " << E2.getName() << endl;
+    }
+    return 0;
+}
 ```
 
 ### Output
