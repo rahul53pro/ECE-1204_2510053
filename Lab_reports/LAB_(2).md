@@ -86,13 +86,46 @@ int main()
 
 ## Problem-02
 
-**Problem Statement:** 
+**Problem Statement:** Implement a program that demonstrates both friend class and friend function in C++.
+1. Class B should be a friend class of class A, and use it to print a private value from A.
+2. Also create a friend function that can access and print the same private value of class A.
 
 **Status:** Done
 
 ### Code
 ```cpp
+#include<iostream>
+using namespace std;
+class A
+{
+private:
+    int value;
+public:
+    A(int v) {
+        value = v;
+    }
+    friend class B;
+    friend void printF(A obj);
+};
+class B {
+public:
+    void print(A obj) {
+        cout << "Using Friend Class B : " << obj.value << endl;
+    }
+};
+void printF(A obj) {
+    cout << "Using Friend Function: " << obj.value << endl;
+}
 
+int main ()
+{
+    A object1(2510053);
+    B object2;
+    object2.print(object1);
+    printF(object1);
+    
+    return 0;
+}
 ```
 
 ### Output
