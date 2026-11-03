@@ -175,7 +175,29 @@ Use proper inheritance, constructor chaining, and the friend class concept.
 
 ### Code
 ```cpp
+#include <iostream>
+using namespace std;
+class Cube
+{
+private:
+    float side;
+public:
+    Cube(float s)
+    {
+        side = s;
+    }
+    float volume()
+    {
+       return side * side * side;
+    }
+};
 
+int main()
+{
+    Cube S(5);
+    cout << "Volume of cube: " << S.volume() << endl;
+    return 0;
+}
 ```
 
 ### Output
