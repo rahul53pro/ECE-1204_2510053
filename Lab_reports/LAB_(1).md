@@ -189,7 +189,7 @@ int main()
 ```
 ### Output
 ```text
-<img src="Screenshot 2026-10-28 035123.png" alt="image-1">
+<img src="https://github.com/rahul53pro/ECE-1204_2510053/blob/main/Outputs/LAB-1/Screenshot%202026-11-04%20025159.png" alt="image-1">
 ```
 ### Code 2 :
 ```cpp
