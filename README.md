@@ -91,7 +91,7 @@ Rajshahi – 6204
 | Lab | Topic | Report | Status |
 | :---: | :--- | :---: | :---: |
 | **01** | To be updated | — | [📄 View](https://github.com/rahul53pro/ECE-1204_2510053/blob/main/Lab_reports/LAB_(1).md) |
-| **02** | To be updated | — | 🕒 Upcoming |
+| **02** | To be updated | — | [📄 View](https://github.com/rahul53pro/ECE-1204_2510053/blob/main/Lab_reports/LAB_(2).md) |
 | **03** | To be updated | — | 🕒 Upcoming |
 | **04** | To be updated | — | 🕒 Upcoming |
 | **05** | To be updated | — | 🕒 Upcoming |
