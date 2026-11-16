@@ -70,7 +70,7 @@ Create a multilevel inheritance example with constructors defined in each class 
 
 ## Problem-03
 
-**Problem Statement:** 
+**Problem Statement:** Use a small real life scenario to implement this.
 
 **Status:** Done
 
