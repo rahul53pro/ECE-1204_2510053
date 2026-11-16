@@ -92,7 +92,7 @@ Rajshahi – 6204
 | :---: | :--- | :---: | :---: |
 | **01** | To be updated | — | [📄 View](https://github.com/rahul53pro/ECE-1204_2510053/blob/main/Lab_reports/LAB_(1).md) |
 | **02** | To be updated | — | [📄 View](https://github.com/rahul53pro/ECE-1204_2510053/blob/main/Lab_reports/LAB_(2).md) |
-| **03** | To be updated | — | 🕒 Upcoming |
+| **03** | To be updated | — | [📄 View](https://github.com/rahul53pro/ECE-1204_2510053/blob/main/Lab_reports/LAB_(3).md) |
 | **04** | To be updated | — | 🕒 Upcoming |
 | **05** | To be updated | — | 🕒 Upcoming |
 | **06** | To be updated | — | 🕒 Upcoming |
