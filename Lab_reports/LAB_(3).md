@@ -17,6 +17,15 @@
 ---
 
 ## Problem-01
+Create a program to demonstrate multilevel inheritance involving at least three classes, where:
+* Each class contains public, protected, and private data members.
+* Use member functions to initialize and access these members.
+* Try accessing the members through objects at different inheritance levels.
+
+Your task is to:
+1. Observe how access specifiers (public, protected, private) affect member visibility across derived classes.
+2. Attempt to access all members from the base, intermediate, and derived class objects.
+3. Match the access results with the accessibility table you studied in class.
 
 **Problem Statement:** 
 
