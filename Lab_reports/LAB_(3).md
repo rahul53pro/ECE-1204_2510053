@@ -318,4 +318,6 @@ int main()
 
 ### Discussion
 
+In this experiment, I learned how constructors work in multilevel and hybrid inheritance using simple university-related examples. I observed that the base class constructor is always executed before the derived class constructor. I also learned how virtual inheritance helps avoid duplicate base class objects.
+
 ---
