@@ -62,7 +62,6 @@ Rajshahi – 6204
 | **Course Title** | Object Oriented Programming Sessional |
 | **Course Code** | ECE 1204 |
 | **Language Used** | C++ |
-| **Online Judge** | [Codeforces — Rahul_Sarker](https://codeforces.com/profile/Rahul_Sarker) |
 
 ---
 
