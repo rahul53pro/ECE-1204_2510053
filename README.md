@@ -86,18 +86,12 @@ Rajshahi – 6204
   Need more rows? Copy any row and change the number. Fewer labs? Delete the extra rows.
 -->
 
-| Lab | Topic | Report | Status |
-| :---: | :--- | :---: | :---: |
-| **01** | To be updated | [📄 View](https://github.com/rahul53pro/ECE-1204_2510053/blob/main/Lab_reports/LAB_(1).md) | — |
-| **02** | To be updated | [📄 View](https://github.com/rahul53pro/ECE-1204_2510053/blob/main/Lab_reports/LAB_(2).md) | — |
-| **03** | Implementation of Multilevel and Hybrid Inheritance Using Constructors in C++ | [📄 View](https://github.com/rahul53pro/ECE-1204_2510053/blob/main/Lab_reports/LAB_(3).md) | ✅ Done |
-| **04** | To be updated | — | 🕒 Upcoming |
-| **05** | To be updated | — | 🕒 Upcoming |
-| **06** | To be updated | — | 🕒 Upcoming |
-| **07** | To be updated | — | 🕒 Upcoming |
-| **08** | To be updated | — | 🕒 Upcoming |
-| **09** | To be updated | — | 🕒 Upcoming |
-| **10** | To be updated | — | 🕒 Upcoming |
+| Lab | Topic | Report | Status | Submission Date |
+| :---: | :--- | :---: | :---: | :---: |
+| **01** | To be updated | [📄 View](https://github.com/rahul53pro/ECE-1204_2510053/blob/main/Lab_reports/LAB_(1).md) | — | — |
+| **02** | To be updated | [📄 View](https://github.com/rahul53pro/ECE-1204_2510053/blob/main/Lab_reports/LAB_(2).md) | — | — |
+| **03** | Implementation of Multilevel and Hybrid Inheritance Using Constructors in C++ | [📄 View](https://github.com/rahul53pro/ECE-1204_2510053/blob/main/Lab_reports/LAB_(3).md) | ✅ Done | 16/11/2026 |
+| **04** | To be updated | — | 🕒 Upcoming | — |
 
 ---
 
