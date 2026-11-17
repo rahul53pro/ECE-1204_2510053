@@ -169,6 +169,18 @@ int main()
 
 ### Discussion
 
+| Members | Object A | Object B | Object C |
+| :--- | :---: | :---: | :---: |
+| **A: Public** | Yes | Yes | Yes |
+| **A: Protected** | No | No | No |
+| **A: Private** | No | No | No |
+| **B: Public** | No | Yes | Yes |
+| **B: Protected** | No | No | No |
+| **B: Private** | No | No | No |
+| **C: Public** | No | No | Yes |
+| **C: Protected** | No | No | No |
+| **C: Private** | No | No | No |
+
 ---
 
 ## Problem-02
