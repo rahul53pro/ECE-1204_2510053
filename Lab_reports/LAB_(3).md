@@ -33,7 +33,134 @@ Your task is to:
 
 ### Code
 ```cpp
+#include <iostream>
+using namespace std;
 
+class A
+{
+public:
+    int a;
+
+protected:
+    int b;
+
+private:
+    int c;
+
+public:
+    void setA(int x, int y, int z)
+    {
+        a = x;
+        b = y;
+        c = z;
+    }
+
+    void showA()
+    {
+        cout << "Public member of A: " << a << endl;
+        cout << "Protected member of A: " << b << endl;
+        cout << "Private member of A: " << c << endl;
+    }
+};
+
+class B : public A
+{
+public:
+    int d;
+
+protected:
+    int e;
+
+private:
+    int f;
+
+public:
+    void setB(int x, int y, int z)
+    {
+        d = x;
+        e = y;
+        f = z;
+    }
+
+    void showB()
+    {
+        cout << "Public member of B: " << d << endl;
+        cout << "Protected member of B: " << e << endl;
+        cout << "Private member of B: " << f << endl;
+
+        cout << "Public member of A: " << a << endl;
+        cout << "Protected member of A: " << b << endl;
+    }
+};
+
+class C : public B
+{
+public:
+    int g;
+
+protected:
+    int h;
+
+private:
+    int i;
+
+public:
+    void setC(int x, int y, int z)
+    {
+        g = x;
+        h = y;
+        i = z;
+    }
+
+    void showC()
+    {
+        cout << "Public member of C: " << g << endl;
+        cout << "Protected member of C: " << h << endl;
+        cout << "Private member of C: " << i << endl;
+
+        cout << "Public member of A: " << a << endl;
+        cout << "Protected member of A: " << b << endl;
+
+        cout << "Public member of B: " << d << endl;
+        cout << "Protected member of B: " << e << endl;
+    }
+};
+
+int main()
+{
+    A objA;
+    B objB;
+    C objC;
+
+    objA.setA(10, 20, 30);
+    objB.setA(10, 20, 30);
+    objB.setB(40, 50, 60);
+
+    objC.setA(10, 20, 30);
+    objC.setB(40, 50, 60);
+    objC.setC(70, 80, 90);
+
+    cout << "Class A :" << endl;
+    objA.showA();
+
+    cout << "\nClass B :" << endl;
+    objB.showA();
+    objB.showB();
+
+    cout << "\nClass C :" << endl;
+    objC.showA();
+    objC.showB();
+    objC.showC();
+
+    cout << "\nDirect Object Access :" << endl;
+
+    cout << "A public: " << objA.a << endl;
+    cout << "B public: " << objB.a << ", " << objB.d << endl;
+    cout << "C public: " << objC.a << ", " << objC.d
+         << ", " << objC.g << endl;
+
+    return 0;
+}
 ```
 
 ### Output
@@ -57,7 +184,45 @@ Create a multilevel inheritance example with constructors defined in each class 
 
 ### Code
 ```cpp
+#include <iostream>
+using namespace std;
 
+class A
+{
+public:
+    A()
+    {
+        cout << "Constructor of Class A is called." << endl;
+    }
+};
+
+class B : public A
+{
+public:
+    B()
+    {
+        cout << "Constructor of Class B is called." << endl;
+    }
+};
+
+class C : public B
+{
+public:
+    C()
+    {
+        cout << "Constructor of Class C is called." << endl;
+    }
+};
+
+int main()
+{
+
+    cout << "Creating an object of Class C:" << endl;
+
+    C obj;
+
+    return 0;
+}
 ```
 
 ### Output
@@ -76,7 +241,61 @@ Create a multilevel inheritance example with constructors defined in each class 
 
 ### Code
 ```cpp
+#include <iostream>
+#include <string>
+using namespace std;
 
+class Person 
+{
+public:
+    string name;
+
+    Person() 
+    {
+        cout << "Person constructor is called." << endl;
+    }
+};
+
+class Student : public Person 
+{
+public:
+    int roll;
+
+    Student() 
+    {
+        cout << "Student constructor is called." << endl;
+    }
+};
+
+class Result : public Student 
+{
+public:
+    float marks;
+
+    Result() 
+    {
+        cout << "Result constructor is called." << endl;
+    }
+
+    void display() 
+    {
+        name = "Rahul";
+        roll = 101;
+        marks = 88.5;
+
+        cout << "\nStudent Information :" << endl;
+        cout << "Name: " << name << endl;
+        cout << "Roll: " << roll << endl;
+        cout << "Marks: " << marks << endl;
+    }
+};
+
+int main() 
+{
+    Result obj;
+    obj.display();
+    return 0;
+}
 ```
 
 ### Output
