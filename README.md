@@ -68,7 +68,6 @@ Rajshahi – 6204
 ## 🧭 Quick Navigation
 
 - [📑 Lab Report Index](#-lab-report-index)
-- [🧠 Core OOP Concepts](#-core-oop-concepts)
 - [🏆 Codeforces](#-codeforces)
 - [📚 Previous Course](#-previous-course)
 
