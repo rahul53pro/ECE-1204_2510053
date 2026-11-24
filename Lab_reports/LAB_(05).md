@@ -23,7 +23,78 @@
 
 ### Code
 ```cpp
+#include <iostream>
+#include <cmath>
+using namespace std;
 
+class Shape
+{
+public:
+    virtual float area()
+    {
+        return 0;
+    }
+    virtual float perimeter()
+    {
+        return 0;
+    }
+};
+
+class Circle : public Shape
+{
+    float r;
+public:
+    Circle(float rad)
+    {
+        r = rad;
+    }
+    float area()
+    {
+        return 3.1416 * r * r;
+    }
+    float perimeter()
+    {
+        return 2 * 3.1416 * r;
+    }
+};
+
+class Rectangle : public Shape
+{
+    float l, w;
+public:
+    Rectangle(float len, float wid)
+    {
+        l = len;
+        w = wid;
+    }
+    float area()
+    {
+        return l * w;
+    }
+    float perimeter()
+    {
+        return 2 * (l + w);
+    }
+};
+
+int main()
+{
+    Shape *ptr;
+
+    float r, l, w;
+
+    Circle cir(5);
+    ptr = &cir;
+    cout << "Circle Area: " << ptr->area() << endl;
+    cout << "Circle Perimeter: " << ptr->perimeter() << endl << endl;
+
+    Rectangle rec(5, 4);
+    ptr = &rec;
+    cout << "Rectangle Area: " << ptr->area() << endl;
+    cout << "Rectangle Perimeter: " << ptr->perimeter() << endl << endl;
+
+    return 0;
+}
 ```
 
 ### Output
