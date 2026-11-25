@@ -17,7 +17,7 @@
 ---
 
 ## Problem-01
-**Problem Statement:** 
+**Problem Statement:** Write a C++ program to implement a class called Shape with virtual member functions for calculating area and perimeter. Derive classes such as Circle, Rectangle, and Triangle from the Shape class and override virtual functions accordingly.
 
 **Status:** Done
 
@@ -107,7 +107,7 @@ int main()
 ---
 
 ## Problem-02
-**Problem Statement:** 
+**Problem Statement:** Write a C++ program to implement a class called Student that has private member variables for name, class, roll number, and marks. Include member functions to calculate the grade based on the marks and display the student's information.
 
 **Status:** Done
 
@@ -193,6 +193,148 @@ int main()
 ---
 
 ## Problem-03
+**Problem Statement:** Write a C++ program using an abstract class Transport with a pure virtual function fare(). Implement it in derived classes Bus, Train and Airplane.
+
+**Status:** Done
+
+### Code
+```cpp
+#include <iostream>
+using namespace std;
+
+class Transport
+{
+protected:
+    double dist;
+public:
+    Transport(double d)
+    {
+        dist = d;
+    }
+    virtual double fare() = 0;
+};
+
+class Bus : public Transport
+{
+public:
+    Bus(double d) : Transport(d) {}
+    double fare()
+    {
+        return dist * 2.5;
+    }
+};
+
+class Train : public Transport
+{
+public:
+    Train(double d) : Transport(d) {}
+    double fare()
+    {
+        return dist * 1.5;
+    }
+};
+
+class Airplane : public Transport
+{
+public:
+    Airplane(double d) : Transport(d) {}
+    double fare()
+    {
+        return 1000 + dist * 8;
+    }
+};
+
+int main()
+{
+    Transport *t;
+    double d;
+
+    cout << "Enter distance : ";
+    cin >> d;
+
+    Bus b(d);
+    Train tr(d);
+    Airplane a(d);
+
+    t = &b;
+    cout << "Bus Fare: " << t->fare() << endl;
+
+    t = &tr;
+    cout << "Train Fare: " << t->fare() << endl;
+
+    t = &a;
+    cout << "Airplane Fare: " << t->fare() << endl;
+
+    return 0;
+}
+```
+
+### Output
+
+<img src="">
+
+### Discussion
+
+
+---
+
+## Problem-04
+**Problem Statement:** Create an abstract class Vehicle with a pure virtual function start().
+Create a derived class Car without overriding start().
+Create another derived class ElectricCar that overrides start().Try creating objects of both Car and ElectricCar.Identify which class is abstract.
+
+**Status:** Done
+
+### Code
+```cpp
+#include <iostream>
+using namespace std;
+
+class Vehicle
+{
+public:
+    virtual void start() = 0;
+};
+
+class Car : public Vehicle
+{
+public:
+    void info()
+    {
+        cout << "This is a car." << endl;
+    }
+};
+
+class ElectricCar : public Vehicle
+{
+public:
+    void start()
+    {
+        cout << "Electric car started silently." << endl;
+    }
+};
+
+int main()
+{
+    // Car c;
+
+    ElectricCar ec;
+    ec.start();
+
+    return 0;
+}
+```
+
+### Output
+
+<img src="">
+
+### Discussion
+
+
+---
+
+## Problem-05
 **Problem Statement:** 
 
 **Status:** Done
