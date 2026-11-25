@@ -115,7 +115,7 @@ Alongside the lab work, I practise problem solving on Codeforces to strengthen m
 
 ### 🙏 Acknowledgement
 
-I am grateful to **Hafsa Binte Kibria** for the guidance and feedback throughout this course.
+I am grateful to **Hafsa Binte Kibria** mam for the guidance and feedback throughout this course.
 
 <br>
 
