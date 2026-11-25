@@ -337,9 +337,14 @@ int main()
 ---
 
 ## Problem-05
-**Problem Statement:** 
+**Problem Statement:** Create a base class Employee.
+Declare calculateSalary() as a virtual function with a definition.
+Declare display() as a pure virtual function.
+Create a derived class Manager that overrides only calculateSalary().
+Try creating an object of Manager.
+Explain why it is or isn't possible.
 
-**Status:** Done
+**Status:** Working
 
 ### Code
 ```cpp
