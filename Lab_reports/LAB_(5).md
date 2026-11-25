@@ -101,7 +101,7 @@ int main()
 
 ### Output
 
-<img src="">
+<img src="https://github.com/rahul53pro/ECE-1204_2510053/blob/main/Outputs/LAB-5/Screenshot%202026-11-25%20051736.png">
 
 ### Discussion
 
