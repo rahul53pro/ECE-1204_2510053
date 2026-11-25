@@ -113,7 +113,74 @@ int main()
 
 ### Code
 ```cpp
+#include <iostream>
+#include <string>
+using namespace std;
 
+class Student
+{
+private:
+    string name;
+    string studentClass;
+    int roll;
+    double marks;
+
+public:
+    Student(string n, string c, int r, double m)
+    {
+        name = n;
+        studentClass = c;
+        roll = r;
+        marks = m;
+    }
+
+    string calculateGrade()
+    {
+        if (marks >= 80)
+            return "A+";
+        else if (marks >= 70)
+            return "A";
+        else if (marks >= 60)
+            return "A-";
+        else if (marks >= 50)
+            return "B";
+        else if (marks >= 40)
+            return "C";
+        else
+            return "F";
+    }
+
+    void display()
+    {
+        cout << "\nStudent Information:" << endl;
+        cout << "Name: " << name << endl;
+        cout << "Class: " << studentClass << endl;
+        cout << "Roll Number: " << roll << endl;
+        cout << "Marks: " << marks << endl;
+        cout << "Grade: " << calculateGrade() << endl;
+    }
+};
+
+int main()
+{
+    string name, cls;
+    int roll;
+    double marks;
+
+    cout << "Enter student name: ";
+    getline(cin, name);
+    cout << "Enter class: ";
+    getline(cin, cls);
+    cout << "Enter roll number: ";
+    cin >> roll;
+    cout << "Enter marks: ";
+    cin >> marks;
+
+    Student s(name, cls, roll, marks);
+    s.display();
+
+    return 0;
+}
 ```
 
 ### Output
